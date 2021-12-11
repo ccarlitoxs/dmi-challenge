@@ -1,0 +1,40 @@
+{
+  "name": "dmi-challenge",
+  "version": "1.0.0",
+  "description": "Desafío técnico para la empresa DMI",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "test-watch": "jest --watch",
+    "start": "node dist/src/app.js",
+    "dev": "ts-node-dev ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccarlitoxs/dmi-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccarlitoxs/dmi-challenge/issues"
+  },
+  "homepage": "https://github.com/ccarlitoxs/dmi-challenge#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.24.1"
+  }
+}
